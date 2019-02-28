@@ -10,7 +10,7 @@ To use the storage adapter, add the key "adapter" to the `config.json`:
 }
 ```
 
-Then make sure hat you register the adapter factory with the following code:
+Then make sure that you register the adapter factory with the following code:
 
 ```ts
 const admin = require('firebase-admin');
