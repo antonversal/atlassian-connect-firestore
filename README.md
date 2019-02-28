@@ -1,6 +1,6 @@
-## Firestore Adapter for Atlassian Connect Express
+# Firestore Adapter for Atlassian Connect Express
 
-# Usage
+## Usage
 
 To use the storage adapter, add the key "adapter" to the `config.json`:
 
