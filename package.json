@@ -1,7 +1,7 @@
 {
-  "name": "atlassian-connect-firebase",
-  "version": "1.0.2",
-  "description": "Atlassian Connect Firebase Adapter",
+  "name": "atlassian-connect-firestore",
+  "version": "1.0.0",
+  "description": "Firestore Adapter for Atlassian Connect Express",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
@@ -29,12 +29,13 @@
     "url": "https://github.com/antonversal/atlassian-connect-firebase"
   },
   "keywords": [
-    "uniq",
-    "is uniq",
-    "class-validator",
-    "typeorm"
+    "firestore",
+    "atlassian",
+    "firbase",
+    "connect",
+    "express"
   ],
-  "author": "JOIN team",
+  "author": "Anton Versal <ant.ver@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/antonversal/atlassian-connect-firebase/issues"

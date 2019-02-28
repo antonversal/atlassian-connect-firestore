@@ -1,17 +1,14 @@
-import * as firebase from '@firebase/testing';
-import { FirebaseAdapter } from './FirebaseAdapter';
+import { firestore } from 'firebase-admin';
+import { FirestoreAdapter } from './FirestoreAdapter';
 
-export default (...args: any[]) => {
+export const factory = (db: firestore.Firestore) => (...args: any[]) => {
   const [logger] = args;
-  const db = firebase
-    .initializeTestApp({
-      databaseName: 'nerdoc_test',
-      projectId: 'my-test-project',
-      auth: { uid: 'alice', email: 'alice@example.com' },
-    })
-    .firestore();
+
   if (args.length === 0) {
-    return FirebaseAdapter;
+    return FirestoreAdapter;
   }
-  return new FirebaseAdapter(db as any, logger);
+  return new FirestoreAdapter(db, logger);
 };
+
+export default factory;
+export { FirestoreAdapter } from './FirestoreAdapter';
