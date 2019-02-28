@@ -26,21 +26,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antonversal/atlassian-connect-firebase"
+    "url": "https://github.com/antonversal/atlassian-connect-firestore"
   },
   "keywords": [
     "firestore",
     "atlassian",
-    "firbase",
+    "firebase",
     "connect",
     "express"
   ],
   "author": "Anton Versal <ant.ver@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antonversal/atlassian-connect-firebase/issues"
+    "url": "https://github.com/antonversal/atlassian-connect-firestore/issues"
   },
-  "homepage": "https://github.com/antonversal/atlassian-connect-firebase#readme",
+  "homepage": "https://github.com/antonversal/atlassian-connect-firestore#readme",
   "devDependencies": {
     "@firebase/testing": "^0.7.3",
     "@types/jest": "^24.0.6",
