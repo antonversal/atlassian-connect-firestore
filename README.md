@@ -21,7 +21,7 @@ admin.initializeApp(functions.config().firebase)
 
 const db = admin.firestore()
 
-ac.store.register('firestore', factory(db))
+ace.store.register('firestore', factory(db))
 
 ```
 
